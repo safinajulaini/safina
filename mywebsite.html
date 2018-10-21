@@ -1,0 +1,315 @@
+
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+<head>
+<script type="text/javascript">
+	function submitform()
+	{
+		alert("Form submitted. Thankyou!"); 
+		
+	}
+</script>
+ 
+<style>
+ol li {
+    padding: 3px;
+	
+}
+
+.w3-tangerine {
+    font-family: "Tangerine", serif;
+}
+
+.w3-allerta {
+  font-family: "Allerta Stencil", Sans-serif;
+}
+
+header
+{
+	background-image: url("ina1.jpg");
+	background-size: 350px;
+	background-repeat: no-repeat;
+	background-position: left;
+	height: 450px;
+}
+
+footer
+{
+	
+	background-color: white;
+	height: 310px;
+}
+
+input[type=text], select {
+    width: 49%;
+    padding: 8px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=button] {
+    width: 20%;
+    background-color:784649;
+    color: white;
+    padding: 8px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: b28386;
+}
+input[type=reset] {
+    width: 20%;
+    background-color: 784649;
+    color: white;
+    padding: 8px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=reset]:hover {
+    background-color: b28386;
+}
+
+input[name=button1] {
+    width: 30%;
+    background-color:black;
+    color: white;
+    padding: 15px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+input[type=button1]:hover {
+    background-color:784649;
+}
+
+a:hover
+{
+	color:784649;
+}
+
+</style>
+</head>
+<body bgcolor="#b28386">
+	<title>My Website</title>
+		
+	<header id="top" class="w3-container-20 w3-white w3-padding-1 w3-card-4">
+	
+		<div class="w3-container w3-third">
+		</div>
+		
+		<div class="w3-container w3-third">
+		</div>
+		
+		<div class="w3-container w3-third w3-right">
+			<a onclick="Play()"><img class="w3-right" src="sound.png" width="10%"></a>
+			<br><br>
+			<a onclick="Pause()"><img class="w3-right" src="mute.png" width="10%"></a>
+		</div>
+
+		<center>
+		<br>
+		<div class="w3-center w3-xxxlarge w3-text-black w3-allerta" style="width:40%">
+			<br>Hello Everybody!
+			<br>I'm <font color="#784649"><b>S A F I N A</b></font>
+			
+			<div class="w3-center w3-xxlarge w3-tangerine">
+			<font color="#784649">"Live life to the fullest and focus on the positive"</font>
+			</div>
+			 
+		</div>
+		</center>
+	</header>
+		
+	<hr>
+	<br>
+	<center>
+	<form name="buttonfunction" method="post" action="">
+		
+			<a href="#aboutme"><input size="25px" type="button" name="button1" value="ABOUT ME"></a>
+			<a href="#education"><input size="25px" type="button" name="button1" value="MY EDUCATION" onclick="education()"></a>
+			<a href="#hobby"><input size="25px" type="button" name="button1" value="MY HOBBY" onclick="hobby()"></a>
+			
+	</form>
+	</center>
+	<br>
+	<hr>
+	<div class="w3-container">
+	<div id="aboutme" class="w3-center w3-xxlarge w3-container w3-allerta w3-text-black">
+		ABOUT ME
+	</div>
+	</div>
+	
+	
+	<div class="w3-container w3-panel">
+	<div class="w3-card-4 w3-round-xlarge w3-container w3-white" style="min-height:450px">
+	<br>
+	<div>
+	</div>
+	<ol type="1">
+		<b><li>Name:</li></b>
+			<ul type="square">
+				<li>Nor Safina binti Julaini</li>
+			</ul>
+		<b><li>Address:</li></b>
+			<ul type="square">
+				<li>Kampung Senari, Jalan Bako, Petrajaya, 93050, Kuching, Sarawak.</li>
+			</ul>
+		<b><li>No.HP:</li></b>
+			<ul type="square">
+				<li>0147599070</li>
+			</ul>
+		<b><li>Email:</li></b>
+			<ul type="square">
+				<li>norsafina0111@gmail.com</li>
+			</ul>
+		<b><li>Skills:</li></b>
+			<ul type="square">
+				<li>Basic skill in Microsoft Word, Excel, Database, PowerPoint and Access.</li>
+				<li>Basic skill in computer programming including C++, Java and Web Programming.</li>
+				<li>Basic skill in Adobe Photoshop and Adobe InDesign.</li>
+				<li>Fluent in Malay and fair in English.</li>
+			</ul>
+		
+	</ol>
+	</div>
+	</div>
+	
+	<hr>
+	<div class="w3-container">
+	<div id="education" class="w3-center w3-xxlarge w3-container w3-allerta w3-text-black">
+		MY EDUCATION
+	</div>
+	</div>
+	
+	<div class="w3-container w3-panel">
+	<table class="w3-table w3-card-4 w3-round-xlarge w3-bordered w3-centered">
+	<thead>
+		<tr bgcolor="black" class="w3-text-white">
+		<th>YEAR</th>
+		<th>SCHOOL/UNIVERSITY</th>
+		<th>ACHIEVEMENT</th>
+		</tr>
+	</thead>
+	<tbody class="w3-white w3-text-black">
+	<tr>
+		<td>2005-2010</td>
+		<td>SK. Kpg. Senari</td>
+		<td>UPSR</td>
+	</tr>
+	<tr>
+		<td>2011-2015</td>
+		<td>MRSM Kuching</td>
+		<td>PMR and SPM</td>
+	</tr>
+	<tr>
+		<td>2016-2019</td>
+		<td>UiTM Samarahan Campus 2</td>
+		<td>Diploma in Computer Science</td>
+	</tr>
+	</tbody>
+	</table>
+	</div>
+	</div>
+	
+	<hr>
+	<div class="w3-container">
+	<div id="hobby" class="w3-center w3-xxlarge w3-container w3-allerta" style="min-height:50px">
+		MY HOBBY
+	</div>
+	</div>
+	
+	<div class="w3 w3-container w3-panel">
+	<div align="justify" class="w3-card-4 w3-round-xlarge w3-container w3-white" style="min-height:450px">
+	<br>
+		<b>I LOVE TO SING.</b> Music became a living and breathing thing for me. Music lived inside of me and in the people around me. 
+		When I sing, it make me feel better and my mood is lifted. Here is the preview of me singing "Rest Of My Life" by Bruno Mars.
+		Enjoy and have fun!
+		<br><br>
+		<center>
+		<video class="w3-card-4 w3-black w3-round-xlarge" width="600" controls>
+			<source src="ising.mp4" type="video/mp4">
+		</video>
+		</center>
+	</div>
+	</div>
+	<br>
+	<hr>
+	<br>
+	<footer class="w3-container w3-padding-1 w3-card-4" >
+		<form name="footer" method="post" action="">
+	
+		<div class="w3-half w3-text-black w3-container w3-panel">
+		<div class="w3-container" style="min-height:40px">
+		<div class="w3-xlarge w3-allerta w3-text-black">
+		Business Inquiries:
+		</div>
+			
+			Name&emsp;:&nbsp <input type="text" name="name1"><br>
+			Email&emsp; :&nbsp <input type="text" name="email"><br>
+			No. HP&nbsp;	:&nbsp <input type="text" name="nohp"><br>
+			<input type="button" name="button" value="OK" onclick="submitform()">
+			<input type="reset" name="Reset" value="Reset">
+			<a href="#top"><input type="button" name="button" value="Back To Top"></a>
+		</div>
+		</div>
+		
+		<div class="w3-half w3-text-black w3-container w3-panel">
+		<div class="w3-container" style="min-height:40px">
+			<div class="w3-right w3-xlarge w3-allerta w3-text-black">
+				For Further Information:
+			</div>
+	
+			<br><br><br>
+			<div class="w3-container w3-half w3-panel w3-center" style="min-height:30px">
+			
+			</div>
+			
+			<div class="w3-container w3-half w3-panel w3-center" style="min-height:30px">
+			<a href="https://twitter.com/safinajulainiii"><img src="tw.png" style="width:20%"></a> 
+				<div class="w3-container w3-half w3-right" style="min-height:30px">
+				<a href="https://instagram.com/safinajulaini"><img src="ig.png" style="width:55%"></a> 
+				</div>
+			</div>
+			
+		</div>
+		</div>
+		
+		</form>
+		<div class="w3-right">
+		<br><br>
+		<audio id="audio1" autoplay loop><source  src="sound1.mp3" type="audio/mpeg"></audio>
+		</div>
+	</footer>
+	<script type="text/javascript">
+		var x = document.getElementById("audio1");
+
+		function Play() { 
+			x.play();
+		
+		}
+ 
+		function Pause() { 
+			x.pause();
+			
+		} 
+</script>
+</body>
+</html>
